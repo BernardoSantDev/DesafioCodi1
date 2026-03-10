@@ -97,6 +97,19 @@ body {
     border: 2px solid #ef4444;
 }
 
+/*ICONES DENTRO DAS CAIXAS*/
+.icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 
 
 

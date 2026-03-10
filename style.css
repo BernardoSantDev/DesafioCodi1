@@ -20,6 +20,7 @@ body {
 
 /*INICIA ESTRUTURAÇÃO DO CARD*/
 
+/*ESTRUTURA PRINCIPAL DO CARD*/
 .card {
     background-color: #ffffff;
     width: 400px;
@@ -28,6 +29,15 @@ body {
     border: 2px solid #1a202c;
     box-shadow: 4px 8px 0px #3182ce, 4px 8px 0px 2px #1a202c;
 }
+
+/*Titulo*/
+.card_title {
+    font-size: 20px;
+    color: #2d3748;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
 
 /*FINALIZA ESTRUTURAÇÃO DO CARD*/
 

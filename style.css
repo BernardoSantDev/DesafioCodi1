@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgb(248, 234, 234);
+    background-color: #f0f4f8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,4 +16,18 @@ body {
 }
 
 /*FIM DA CONFIGURAÇÃO PADRÃO*/
+
+
+/*INICIA ESTRUTURAÇÃO DO CARD*/
+
+.card {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 2px solid #1a202c;
+    box-shadow: 4px 8px 0px #3182ce, 4px 8px 0px 2px #1a202c;
+}
+
+/*FINALIZA ESTRUTURAÇÃO DO CARD*/
 

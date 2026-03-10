@@ -110,6 +110,9 @@ body {
     font-size: 18px;
 }
 
+.input-box .icon { background-color: #22c55e; }
+.exit-box .icon { background-color: #ef4444; }
+
 
 
 

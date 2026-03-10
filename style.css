@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+    background-color: rgb(248, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}

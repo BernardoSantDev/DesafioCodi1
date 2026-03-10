@@ -56,6 +56,23 @@ body {
     letter-spacing: -0.5px;
 }
 
+/*botao do container do saldo*/
+.btn{
+    background-color: #bfdbfe;
+    border: none;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.2s;
+}
+
+
+
 
 /*FINALIZA ESTRUTURAÇÃO DO CARD*/
 

@@ -78,10 +78,18 @@ body {
 /* FIM DA ESTRUTURA PRINCIPAL DO CARD*/
 
 /* INICIO DO CONTAINER INFERIOR*/
-
 .details-container {
     display: flex;
     gap: 16px;
+}
+
+.box {
+    flex: 1; 
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 
@@ -113,9 +121,24 @@ body {
 .input-box .icon { background-color: #22c55e; }
 .exit-box .icon { background-color: #ef4444; }
 
+/* TEXTO DENTRO DO BOX*/
+.text {
+    display: flex;
+    flex-direction: column;
+}
 
+.text .label {
+    font-size: 14px;
+    color: #1a202c;
+    font-weight: 600;
+}
 
+.text .value{
+    font-size: 14px;
+}
 
+.input-box .value { color: #166534; }
+.exit-box .value { color: #991b1b; }
 
 
 /* FINALIZA DO CONTAINER INFERIOR*/

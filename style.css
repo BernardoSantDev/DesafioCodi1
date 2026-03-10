@@ -75,6 +75,23 @@ body {
     background-color: #93c5fd;
 }
 
+/* FIM DA ESTRUTURA PRINCIPAL DO CARD*/
+
+/* INICIO DO CONTAINER INFERIOR*/
+
+.details-container {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+
+
+
+
+/* FINALIZA DO CONTAINER INFERIOR*/
+
 
 /*FINALIZA ESTRUTURAÇÃO DO CARD*/
 

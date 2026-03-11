@@ -11,6 +11,11 @@ toggleBtn.addEventListener('click', () => {
         sensitiveElements.forEach(el => {
             el.textContent = '••••••••';
         })
+    } else {
+        eyeIcon.src = 'imagem/olhoAberto.png';
+        sensitiveElements.forEach(el => {
+            el.textContent = el.getAttribute('data-value');
+        })
     }
 
 

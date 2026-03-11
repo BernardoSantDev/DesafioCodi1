@@ -17,13 +17,4 @@ toggleBtn.addEventListener('click', () => {
             el.textContent = el.getAttribute('data-value');
         })
     }
-
-
-
-
 })
-
-
-
-
-

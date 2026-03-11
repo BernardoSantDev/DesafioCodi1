@@ -1,4 +1,5 @@
 const toggleBtn = document.getElementById('toggleBtn');
+const eyeIcon = document.getElementById('eyeIcon')
 const sensitiveElements = document.querySelectorAll('.sensitive-data');
 let isHidden = false;
 

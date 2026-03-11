@@ -75,6 +75,12 @@ body {
     background-color: #93c5fd;
 }
 
+.btn img {
+    width: 24px;
+    height: auto;
+    pointer-events: none; 
+}
+
 /* FIM DA ESTRUTURA PRINCIPAL DO CARD*/
 
 /* INICIO DO CONTAINER INFERIOR*/

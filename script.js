@@ -8,6 +8,9 @@ toggleBtn.addEventListener('click', () => {
 
     if(isHidden){
         eyeIcon.src = 'imagem/olhoFechado.png';
+        sensitiveElements.forEach(el => {
+            el.textContent = '••••••••';
+        })
     }
 
 
